@@ -1,7 +1,7 @@
 #_Tap-A-Tap_
 Game created to practice Android SDK and Android Studio. Available on Play Store (with ads). Objective is to tap the appearing red buttons (or toggled 'Ants' theme) to rack up points. You can earn up to 10 points on Easy mode, 20 on Medium, and 30 on Hard.
 
-
+_Creator/Developer:_ Ruiz Hierro
 
 
 ##CHANGELOG
