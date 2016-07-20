@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "189539237238",
+    "firebase_url": "https://admob-app-id-3334299192.firebaseio.com",
+    "project_id": "admob-app-id-3334299192",
+    "storage_bucket": "admob-app-id-3334299192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189539237238:android:f97496da9e1eb4d7",
+        "android_client_info": {
+          "package_name": "com.example.ruiz.tappamole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189539237238-mhq57kgip58srbtbkk8clsemnjjkvgtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQoz_ql0mj0Vv0gUQBLvMLpq8xLee5j0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

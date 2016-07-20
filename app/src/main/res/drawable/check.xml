@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected, use grey
+    <item android:drawable="@drawable/ant_idle"   -->
+    <item android:drawable="@drawable/ant_idle_new"
+        android:state_checked="true" />
+    <!-- When not selected, use white-->
+    <item android:drawable="@drawable/toggle_classic_style"
+        android:state_checked="false"/>
+
+</selector>
