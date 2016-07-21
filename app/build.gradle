@@ -8,8 +8,8 @@ android {
         applicationId "com.example.ruiz.tappamole"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 20160719 //YYYMMMDD format, increment accordingly as new version is released on Play Store
-        versionName "1.1.0"
+        versionCode 20160721 //YYYMMMDD format, increment accordingly as new version is released on Play Store
+        versionName "1.2.0"
     }
     buildTypes {
         release {
