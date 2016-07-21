@@ -6,6 +6,10 @@ _Creator/Developer:_ Ruiz Hierro
 
 ##CHANGELOG
 
+###**v1.1.1**
+* Moved toast to top right when choosing themes
+  * Better toast visibility, fixed toast overlap
+
 ###**v1.1.0**
 * Added an 'Ants Theme'
   * You can now play with a new skin! Squish those pesky ants!
