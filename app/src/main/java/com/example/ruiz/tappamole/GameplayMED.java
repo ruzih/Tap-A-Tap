@@ -142,7 +142,7 @@ public class GameplayMED extends AppCompatActivity {
         handle2.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(GameplayMED.this, "GAME OVER", Toast.LENGTH_LONG).show();
+                Toast.makeText(GameplayMED.this, "GAME OVER", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), PlayAgainMED.class);
                 startActivity(intent);
             }
