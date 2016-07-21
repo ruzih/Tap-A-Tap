@@ -6,6 +6,11 @@ _Creator/Developer:_ Ruiz Hierro
 
 ##CHANGELOG
 
+###**v1.2.0**
+* Added a 'Cloud Theme'
+  * You can now play with a new skin! Poof those puffy clouds!
+* Removed text from toggle button; selected theme will display through toast
+
 ###**v1.1.1**
 * Moved toast to top right when choosing themes
   * Better toast visibility, fixed toast overlap

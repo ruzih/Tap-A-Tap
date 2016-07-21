@@ -64,6 +64,8 @@
         ads:adUnitId="@string/banner_ad_unit_id">
     </com.google.android.gms.ads.AdView>
 
+
+    <!--
     <ToggleButton
         android:id="@+id/toggle"
         android:layout_width="wrap_content"
@@ -80,12 +82,24 @@
         android:checked="false"
         android:textSize="10dp"
         android:textColor="#cfffa1" />
+        -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebuttontoggle"
+        android:background="#0000"
+        android:src = "@drawable/toggle_classic_style"
+        android:onClick="toggleTheme"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/adView"
+        android:layout_alignEnd="@+id/adView" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="v1.1.0"
+        android:text="v1.2.0"
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
