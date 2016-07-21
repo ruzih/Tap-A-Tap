@@ -128,7 +128,7 @@ public class ANTGameplayEZ extends AppCompatActivity {
         handle2.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(ANTGameplayEZ.this, "GAME OVER", Toast.LENGTH_LONG).show();
+                Toast.makeText(ANTGameplayEZ.this, "GAME OVER", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ANTPlayAgainEZ.class);
                 startActivity(intent);
             }

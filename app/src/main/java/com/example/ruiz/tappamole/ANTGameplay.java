@@ -157,7 +157,7 @@ public class ANTGameplay extends AppCompatActivity {
         handle2.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(ANTGameplay.this, "GAME OVER", Toast.LENGTH_LONG).show();
+                Toast.makeText(ANTGameplay.this, "GAME OVER", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), ANTPlayAgain.class);
                 startActivity(intent);
             }

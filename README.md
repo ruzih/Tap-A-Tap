@@ -9,6 +9,7 @@ _Creator/Developer:_ Ruiz Hierro
 ###**v1.1.1**
 * Moved toast to top right when choosing themes
   * Better toast visibility, fixed toast overlap
+* Shortened 'GAME OVER' toast duration
 
 ###**v1.1.0**
 * Added an 'Ants Theme'
