@@ -23,6 +23,7 @@ public class PlayMenu extends AppCompatActivity {
     }
 
     boolean toggleCheck = false;
+    boolean checkedBefore = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,22 +42,26 @@ public class PlayMenu extends AppCompatActivity {
 
 
         final Toast themeToggle1 = Toast.makeText(PlayMenu.this, "Ant Theme", Toast.LENGTH_SHORT);
-        themeToggle1.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 10, 5);
+        themeToggle1.setGravity(Gravity.TOP|Gravity.RIGHT, 0, 10);
         final Toast themeToggle2 = Toast.makeText(PlayMenu.this, "Classic Theme", Toast.LENGTH_SHORT);
-        themeToggle2.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 10, 5);
+        themeToggle2.setGravity(Gravity.TOP|Gravity.RIGHT, 0, 10);
 
         final ToggleButton toggle = (ToggleButton) findViewById(R.id.toggle);
         toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
+                if (isChecked && !checkedBefore) {
+                    checkedBefore = true;
+                    themeToggle1.show();
+                    toggleCheck = true;
+                }else if (isChecked && checkedBefore) {
                     // The toggle is enabled
-
+                    themeToggle2.cancel();
                     themeToggle1.show();
                     toggleCheck = true;
 
                 } else {
                     // The toggle is disabled
-
+                    themeToggle1.cancel();
                     themeToggle2.show();
                     toggleCheck = false;
                 }
