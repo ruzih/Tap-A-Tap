@@ -43,6 +43,7 @@ public class PlayMenu extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
 
+
         final Toast themeToggle1 = Toast.makeText(PlayMenu.this, "Ant Theme", Toast.LENGTH_SHORT);
         themeToggle1.setGravity(Gravity.TOP|Gravity.RIGHT, 0, 10);
         final Toast themeToggle2 = Toast.makeText(PlayMenu.this, "Classic Theme", Toast.LENGTH_SHORT);
@@ -129,6 +130,14 @@ public class PlayMenu extends AppCompatActivity {
             }
         });
         */
+
+        final ImageButton instruct = (ImageButton) findViewById(R.id.instructions);
+        instruct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PlayMenu.this,Pop.class));
+            }
+        });
 
         final ImageButton toggleButton = (ImageButton) findViewById(R.id.imagebuttontoggle);
         toggleButton.setOnClickListener(new View.OnClickListener() {

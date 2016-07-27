@@ -184,6 +184,10 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </activity>
 
+        <activity android:name=".Pop"
+            android:theme="@style/AppTheme.TransPopup"
+            ></activity>
+
 
 
 
