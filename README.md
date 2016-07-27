@@ -8,7 +8,8 @@ _Creator/Developer:_ Ruiz Hierro
 
 ###**v1.2.5**
 * Added instructions icon under the version number (top left)
-  *Tap to learn how to play; tap outside the screen or tap your Back button to leave the info page
+  *Tap to learn how to play
+  *Tap outside the screen or tap your Back button to leave the info page
 
 ###**v1.2.0**
 * Added a 'Cloud Theme'
