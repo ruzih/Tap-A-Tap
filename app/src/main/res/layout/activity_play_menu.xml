@@ -27,7 +27,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Medium (max 20)"
+        android:text="Medium"
         android:id="@+id/menuPlay2"
         android:layout_marginTop="20dp"
         android:backgroundTint="#e7da17"
@@ -37,7 +37,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Easy (max 10)"
+        android:text="Easy"
         android:id="@+id/menuPlay3"
         android:backgroundTint="#6ccb62"
         android:layout_centerVertical="true"
@@ -46,7 +46,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hard (max 30)"
+        android:text="Hard"
         android:id="@+id/menuPlay"
         android:backgroundTint="#f51212"
         android:layout_below="@+id/menuPlay2"
@@ -95,14 +95,23 @@
         android:layout_alignRight="@+id/adView"
         android:layout_alignEnd="@+id/adView" />
 
-    
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="v1.2.0"
+        android:text="v1.2.5"
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:background="@drawable/instructions_button_smaller"
+        android:layout_below="@+id/textView4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
